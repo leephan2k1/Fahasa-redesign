@@ -4,6 +4,9 @@
 @tailwind utilities;
 
 @layer base {
+  .container-1200 {
+    @apply max-w-[120rem];
+  }
 }
 
 @layer components {

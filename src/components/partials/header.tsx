@@ -6,13 +6,14 @@ import { IonLogOut } from '../icons/logout';
 import { MaterialSymbolsSearch } from '../icons/magnify';
 import { IcBaselinePayments } from '../icons/payment';
 import { MaterialSymbolsPerson } from '../icons/user';
+import Logo from './logo';
 
 export default function Header() {
   return (
     <header className="container-1200 mx-auto">
       <nav className="navbar navbar-glass navbar-no-boxShadow h-[8rem] py-6">
         <div className="navbar-start">
-          <a className="navbar-item font-bold text-3xl text-red-500">Fahaha</a>
+          <Logo />
         </div>
         <div className="navbar-center">
           <button className="navbar-item flex space-x-1">
@@ -20,7 +21,11 @@ export default function Header() {
             <MajesticonsChevronDownLine />
           </button>
           <div className="navbar-item flex border-[2px] border-rose-500 items-center rounded-xl">
-            <input type="text" className="w-[35rem]" />
+            <input
+              type="text"
+              className="w-[35rem]"
+              placeholder="Tìm kiếm sản phẩm..."
+            />
             <MaterialSymbolsSearch />
           </div>
         </div>

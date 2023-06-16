@@ -16,7 +16,7 @@ export default function Header() {
           <Logo />
         </div>
         <div className="navbar-center">
-          <button className="navbar-item flex space-x-1">
+          <button className="navbar-item flex items-center space-x-1">
             <BxBxsCategoryAlt className="text-4xl" />
             <MajesticonsChevronDownLine />
           </button>
